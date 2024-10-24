@@ -1,0 +1,408 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.parentcontainer{
+  display: flex;
+  justify-content: space-evenly;
+  width: 1440;
+  height: 102;
+  grid: 10px;
+}
+.headertext{
+  color: #333333;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  font-family:Roboto;
+  margin: 15px;
+  padding: 5px;
+  margin-left: 60px;
+}
+li:hover{
+  text-decoration: overline underline;
+}
+.headerpicture{
+    width: 68px;
+    height: 41px;
+    align-items: center;
+    margin: 30px;
+}
+.mainPicture{
+  width: 770px;
+  height: 829px;
+}
+
+.Mainhead{
+  height: 64px;
+  width: 277px;
+  font-family: roboto;
+  font-size: 64px;
+  color: gray;
+  margin-top: 80%;
+}
+
+.Mainhead1{
+    height: 64px;
+    width: 277px;
+    font-size: 64px;
+    font-family:roboto;
+}
+
+
+
+/* css for about */
+
+
+
+.Aboutcontainer{
+  height: 435px;
+  width: 1170px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.pic1{
+  height:269px ;
+  width:270px;
+  margin: 20px;
+  
+}
+.pic2{
+  height: 269px;
+  width: 270px;
+  margin: 20px;
+}
+.pic3{
+  height: 345px;
+  width: 270px;
+}
+.p{
+  height: 100px;
+  width: 200px;
+}
+.textContainer{
+  height: 400px;
+  width: 30%;
+  margin: 15px;
+  font-family: roboto;
+  text-align: justify;
+}
+h2{
+  width: fit-content;
+  height: 64px;
+  font-size: 50px;
+  color: gray;
+  margin-bottom: 20px;
+}
+.readmore{
+  height: 71px;
+  width: 222px;
+}
+
+
+/* css for mission statements  */
+
+.Parentstatement{
+  width: 1170px;
+  height: 268px;
+  margin: 60px;
+}
+.Childstatement{
+  display: flex;
+  gap: 150px;
+}
+.childstatement-1{
+  width: 413px;
+  height: 144px;
+  display: flex;
+  margin: 10px;
+}
+.childstatement-2{
+  width: 570px;
+  height: 144px;
+  margin-left: 70px;
+  display: flex;
+  margin: 10px;
+}
+.one{
+  width: 104px;
+  height: 140px;
+}
+.two{
+  width: 120px;
+  height: 140px;
+}
+
+.childstatementstext{
+  margin: 20px;
+  width: 420px;
+  height: 144px;
+  font-size: 20px;
+}
+
+
+
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* css for project */
+.parentproject{
+  height: 765px;
+  width: 1170px;
+  margin: 60px;
+}
+.pro1{
+  width: 570px;
+  height: 255px;
+  margin: 15px;
+}
+.pro2{
+  width:570px ;
+  height:255px ;
+  margin:15px;
+}
+.pro3{
+  width:270px ;
+  height:255px ;
+  margin:15px ;
+}
+.pro4{
+  width:470px ;
+  height:255px ;
+  margin:15px ;
+}
+.pro5{
+  width: 370px;
+  height:255px ;
+  margin:15px ;
+}
+.piccontainer{
+  display: flex;
+}
+.projectbutton{
+  height: 71px;
+  width: 221px;
+ background-color: #2c2c2c;
+ color: white;
+ margin-left: 82.5%;
+}
+
+/* css for contactus */
+.parent-contact{
+  height: 603px;
+  width: 1170px;
+  margin: 60px;
+}
+.child-contact{
+  display: flex;
+}
+.Contact-form{
+height: 46px;
+width: 410px;
+background-color: rgb(228,224,224);
+margin: 5px;
+}
+.Contact-form-message{
+  background-color:rgb(228,224,224);
+  margin: 5px;
+  height: 138px;
+  width: 410px;
+}
+input{
+  padding-left: 20px;
+}
+.Contact-length{
+  width: 500px;
+}
+.contactus-pic{
+  width: 749px;
+  height: 369px;
+}
+.contact-button{
+  height: 71px;
+  width: 221px;
+  background-color: #2c2c2c;
+  color: white;
+  margin: 5px;
+}
+
+/* css fot footer    */
+.parent-footer{
+  display: flex;
+  justify-content: space-between;
+  height: 417px;
+  width: 100%;
+  background-color: #2c2c2c;
+}
+.footer-text{
+  display: flex;
+  gap: 15px;
+  margin-top: 50px;
+}
+
+
+.footer-pic{
+  margin-top: 60px;
+}
+.info{
+  color: white;
+}
+h3{
+  color: white;
+  font-size: 25px;
+  margin-top: 60px;
+  
+}
+li{
+  margin-top: 20px;
+}
+.Contact{
+  margin-top: 6opx;
+  color: white;
+}
+.footer-icon{
+  width: 16px;
+  height: 16px;
+  gap: 15px;
+}
+.icon{
+  display: flex;
+}
+.socail-media{
+  width: 25%;
+}
+.social-icon{
+  width: 20px;
+  height: 20px;
+  margin: 15px;
+}
+
+
+/*  */
+.Parent-Gallery{
+  width: 277px;
+  height:128px ;
+  margin: 70px;
+}
+.maintopic{
+  height: 64px;
+  width: 277px;
+  color: gray;
+  font-size: 64px;
+  font-style: light;
+  font-family: roboto;
+}
+.maintopicbelow{
+  height: 64px;
+  width:203px ;
+  font-size: 64px;
+  color: rgb(0, 0, 0);
+  font-family: roboto;
+}
+.gallery-pic{
+  display: flex;
+  margin-left: 30px;
+  padding-left: 30px;
+}
+.Gallerypicture{
+  width: 210px;
+  height: 260px;
+  margin: 12px;
+}
+
+
+
+/* css for sample project1 */
+.sampleproject1{
+  width: 1170px;
+  height: 435px;
+  opacity: 100%;
+}
+.sampleproject-pic{
+   margin: 60px;
+}
+.mainbody{
+  display: flex;
+  justify-content: space-evenly;  
+  margin: 60px; 
+}
+.sampleproject2{
+  width: 419px;
+  height: 405px;
+}
+.project-text{
+  width: 721px;
+  height: 428px;
+  margin-left: 25px;
+}
+
+
+/* css for Projects */
+.sampleproject{
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  height: 435px;
+  margin: 60px;
+}
+.project-pic{
+  width: 670px;
+  height: 435px;
+}
+.sample-text{
+  width: 50%;
+  height: 20px;
+  margin: 50px;
+}
+.view-more{
+  height: 71px;
+  width: 221px;
+  color:black;
+  margin-top: 60px;
+  box-shadow: 00 00 2px 2px gray;
+}
+
+/* css for contact information */
+.fullscreen{
+  width: 1260px;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+h5{
+  font-size: 25px;
+  font-style: bold;
+}
+.contact-button{
+  height: 71px;
+  width: 221px;
+  margin-top: 20px;
+}
+
+.contact-picture{
+  width: 600px; 
+   height: 535px;
+   margin-top: 20px;
+   border: 1px solid black;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
